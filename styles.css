@@ -15,7 +15,8 @@ header {
     height: 150px;
     background-color: #141a1a;
     background-image: url(images/bowl.jpg);
-    background-position: center;
+    background-position: right;
+    background-repeat: no-repeat;
     color: #fff;
 }
 
@@ -36,7 +37,7 @@ h1 {
 }
 
 nav {
-    width: 150px;
+    width: 200px;
     margin-top: 16px;
 }
 
