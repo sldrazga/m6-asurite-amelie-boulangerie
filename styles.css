@@ -1,6 +1,10 @@
-body {
+* {
     font-family: Verdana, Arial, sans-serif;
     line-height: 1.5;
+    margin: auto;
+}
+
+body {
     background-color: #F28095;
     margin: 0;
 }
