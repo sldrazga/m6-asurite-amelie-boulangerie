@@ -1,9 +1,6 @@
-html {
+body {
     font-family: Verdana, Arial, sans-serif;
     line-height: 1.5;
-}
-
-body {
     background-color: #F28095;
     margin: 0;
 }
@@ -18,6 +15,7 @@ header {
     height: 150px;
     background-color: #141a1a;
     background-image: url(images/bowl.jpg);
+    background-position: center;
     color: #fff;
 }
 
@@ -31,7 +29,7 @@ h1 {
     width: 1000px;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #fdfdfd;
     display: grid;
     grid-template-columns: 184px 1fr;
     gap: 0 16px;
@@ -50,17 +48,14 @@ nav li {
 nav a {
     display: block;
     padding: 16px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 8px auto;
     background-color: #e0e5de;
     color: #141a1a;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav a::first-line {
+nav li:first-child a, nav a:hover {
     background-color: #f28095;
 }
 
